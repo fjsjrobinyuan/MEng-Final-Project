@@ -1,0 +1,7 @@
+# Ignore dataset and model weights
+data/*
+weight/*
+
+# But keep the folders themselves
+!data/.gitkeep
+!weight/.gitkeep
